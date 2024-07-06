@@ -25,7 +25,7 @@ services:
     container_name: pgadmin_project
     labels:
       org.springframework.boot.ignore: true
-    image: "dpage/pgadmin4:7.4"
+    image: "dpage/pgadmin4:8.9"
     env_file:
       - ./config/pgadmin.env
     volumes:
