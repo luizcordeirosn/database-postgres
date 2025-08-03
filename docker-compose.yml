@@ -32,6 +32,7 @@ services:
       - "15433:80"
     networks:
       - postgres_network
+    user: "${UID}:${GID}"
     entrypoint:
       - "/bin/sh"
       - "-c"
